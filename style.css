@@ -1,6 +1,28 @@
 body{
-	background-color: rgba(11, 244, 9, 0.2);
+	background-color:#49F2F8;
 	font-family:arial;
 	font-size:14px;
 	text-align:center;
+}
+h1{
+	color:blue;
+}
+.jumbotron{
+	background-image: url("Canvas/header-01.png");
+	background-repeat: no-repeat;
+}
+.well{
+	background-color:#49F2F8;
+	padding:0px;
+}
+footer{
+	background-size: width:100%;
+	height: 400px;
+	background-color: gray;
+}
+footer .icon {
+    position:absolute ;
+    left: 0px;
+    top: 150px;
+    z-index: 1;
 }

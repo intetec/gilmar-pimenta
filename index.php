@@ -3,38 +3,52 @@
 <html>
 <head>
 <title>projetoBrasilComCiencia</title>
-<link rel="stylesheet" href="style.css">
-<!-- Latest compiled and minified CSS -->
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<html lang="pt_BR">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 
-<!-- jQuery library -->
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-
-<!-- Latest compiled JavaScript -->
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-
-<link rel="stylesheet" href="style.css">
-
+							<link rel="stylesheet" href="style.css">
 </head>
 
 	<body>
 
-  <header>
-  	<div class="jumbotron text-center">
-  		<img src="Canvas/Sheeple fools who believe the mainstream news has no agenda but to report the truth.jpg" alt="pensamentos" />
-  		<h1>
-		<svg height="120" width="200">
-		  	<defs>
-			    <linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="0%">
-			      <stop offset="0%" style="stop-color:rgb(255,255,0);stop-opacity:1" />
-			      <stop offset="100%" style="stop-color:rgb(39,214,180);stop-opacity:1" />
-			    </linearGradient>
-		  	</defs>
-			  <ellipse cx="105" cy="60" rx="95" ry="55" fill="url(#grad1)" />
-			  <text fill="black" font-size="60" font-family="Verdana" x="35" y="84">PBCC</text>
-			  Sorry, your browser does not support inline SVG.
-		</svg>
-  		projetoBrasilComCiência</h1>
+	<nav class="navbar navbar-inverse">
+	  	<div class="container-fluid">
+		    <div class="navbar-header">
+		      <a class="navbar-brand" href="#">projetoBrasilComCiencia</a>
+		    </div>
+			    <ul class="nav navbar-nav">
+			      <li class="active"><a href="#">Home</a></li>
+			      <li><a href="#">Page 1</a></li>
+			      <li><a href="#">Page 2</a></li> 
+			    </ul>
+			    <ul class="nav navbar-nav navbar-right">
+			      <li><a href="#"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+			      <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+			    </ul>
+	  	</div>
+	</nav>
+
+  	<header>
+	  	<div class="jumbotron text-center">
+	  	<img src="Canvas/bee.png" alt="produtividade" style="width:184px;height:208px;">
+
+			<svg height="120" width="200">
+			  	<defs>
+				    <linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="0%">
+				      <stop offset="0%" style="stop-color:rgb(255,255,0);stop-opacity:1" />
+				      <stop offset="100%" style="stop-color:rgb(39,214,180);stop-opacity:1" />
+				    </linearGradient>
+			  	</defs>
+				  <ellipse cx="105" cy="60" rx="95" ry="55" fill="url(#grad1)" />
+				  <text fill="black" font-size="60" font-family="Verdana" x="35" y="84">PBCC</text>
+				  Sorry, your browser does not support inline SVG.
+			</svg>
+	  												<h1>projetoBrasilComCiência</h1>
+
   			<p>A humanidade caminha em fila rumo ao desconhecido !</p>
   			<!-- Trigger the modal with a button -->
 		<button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">Quer Saber Mais ?</button>
@@ -62,21 +76,30 @@
 
 		 	</div>
 		</div> 
-	</div>
-    <!-- header content goes in here -->
-    <div class="well well-sm"><img src="Canvas/Chara04.png" alt=""><h2>Bem Vindos A Uma Nova Visão !</h2></div>
-		<div class="well well-lg"><img src="Canvas/167409.jpg" alt=""></div>
-    <svg height="120" width="200">
-	  	<defs>
-		    <linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="0%">
-		      <stop offset="0%" style="stop-color:rgb(255,255,0);stop-opacity:1" />
-		      <stop offset="100%" style="stop-color:rgb(39,214,180);stop-opacity:1" />
-		    </linearGradient>
-	  	</defs>
-	  	<ellipse cx="105" cy="60" rx="95" ry="55" fill="url(#grad1)" />
-	  	<text fill="black" font-size="60" font-family="Verdana" x="35" y="84">PBCC</text>
-	  		Sorry, your browser does not support inline SVG.
-	</svg>
+		</div>
+	    <!-- header content goes in here -->
+	    <div class="well well-sm"><img src="Canvas/pic_mountain.jpg" alt="Mountain View" style="width:504px;height:428px;"><h2>Bem Vindos A Uma Nova Visão !</h2>
+		<h4>
+		Lorem ipsum dolor sit amet, consectetur adipisicing elit.<br> Quod consequatur enim corrupti beatae sequi rerum, <br>earum optio est illo cum architecto id,<br> blanditiis dolores repellat eius asperiores nihil ratione. Cumque.
+		</h4>
+	    </div>
+			<div class="well well-lg"><img src="Canvas/167409.jpg" alt="">
+			<h2>A oportunidade de repensar conceitos !</h2>
+			<h4>
+				Lorem ipsum dolor sit amet, consectetur adipisicing elit.<br> Quod consequatur enim corrupti beatae sequi rerum, <br>earum optio est illo cum architecto id,<br> blanditiis dolores repellat eius asperiores nihil ratione. Cumque.
+			</h4>
+			</div>
+	    <svg height="120" width="200">
+		  	<defs>
+			    <linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="0%">
+			      <stop offset="0%" style="stop-color:rgb(255,255,0);stop-opacity:1" />
+			      <stop offset="100%" style="stop-color:rgb(39,214,180);stop-opacity:1" />
+			    </linearGradient>
+		  	</defs>
+		  	<ellipse cx="105" cy="60" rx="95" ry="55" fill="url(#grad1)" />
+		  	<text fill="black" font-size="60" font-family="Verdana" x="35" y="84">PBCC</text>
+		  		Sorry, your browser does not support inline SVG.
+		</svg>
   		<h1>projetoBrasilComCiência</h1>
   			<p>Uma nova maneira de ver o nosso mundo !</p>
   			<!-- Trigger the modal with a button -->
@@ -105,74 +128,25 @@
 
 			</div>
 		</div> 
-    <h1>Wake up sheeple!</h1>
-	  <p><a href="news.html">News</a> -
-	     <a href="blog.html">Blog</a> -
-	     <a href="forums.html">Forums</a></p>
-	  <p>Last Modified: <time>2009-04-01</time></p>
-  	<nav>
-	   	<h1>Navigation</h1>
-		   <ul>
-		    <li><a href="articles.html">Index of all articles</a></li>
-		    <li><a href="today.html">Things sheeple need to wake up for today</a></li>
-		    <li><a href="successes.html">Sheeple we have managed to wake</a></li>
-		   </ul>
-	  	</nav>
-  </header>
-
-  <nav>
-    <!-- navigation menu goes in here -->
-  </nav>
-
-  <section id="sidebar1">
-    <!-- sidebar content goes in here -->
-  </section>
-
-  	<section id="main">
-	    <article>
-	      <!-- first blog post content goes here -->
-	      <section id="introduction">
-			  </section>
-			  
-			  <section id="content">
-			  </section>
-			  
-			  <section id="summary">
-			  </section>
-	    </article>
-	    
-	    <article>
-	      <!-- second blog post content goes here -->
-		      <section id="introduction">
-			  </section>
-			  
-			  <section id="content">
-			  </section>
-			  
-			  <section id="summary">
-			  </section>
-	    </article>
-	    
-	    <article>
-	      <!-- third blog post content goes here -->
-		      <section id="introduction">
-			  </section>
-			  
-			  <section id="content">
-			  </section>
-			  
-			  <section id="summary">
-			  </section>
-	    </article>
-	</section>
-
-  <aside>
-    <!-- aside content goes in here -->
-  </aside>
-
-  <footer>
-    <!-- footer content goes in here -->
-  </footer>
+    	<h1>Seguindo em uma Direção !</h1>
+	  	<p><a href="news.html">novidades </a> #
+	     <a href="blog.html">blogs </a> #
+	     <a href="forums.html">foruns</a></p>
+	  	<p>Last Modified: <time>2009-04-01</time></p>
+	   	
+ 	</header>
+<footer>
+	<div class="icon">
+	  	<a class="media-center" href="#"><img class="media-object" src="Canvas/icon-youtube.png" alt="YOU-TUBE" style="width:84px;height:84px;">
+	    <img class="media-object" >
+	    <a class="media-center" href="#"><img class="media-object" src="Canvas/icon-face.png" alt="FACEBOOK" style="width:84px;height:84px;">
+	    <img class="media-object" >
+	    <a class="media-center" href="#"><img class="media-object" src="Canvas/icon-google.png" alt="GOOGLE+" style="width:84px;height:84px;">
+	    <img class="media-object" >
+	    <a class="media-center" href="#"><img class="media-object" src="Canvas/icon-twitter.ico" alt="TWITTER" style="width:84px;height:84px;">
+	  	</a>
+  	</div>
+</footer>
 
 </body>
 
